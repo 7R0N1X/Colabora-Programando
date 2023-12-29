@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -1;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p,
+label {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#formulario {
+    padding-left: 0px;
+}
+
+#contenedor_codigo {
+    height: 90vh;
+}
+
+#contenedor_codigo .CodeMirror {
+    height: 100%;
+}
+
+nav a,
+nav span {
+    color: white !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
